@@ -56,6 +56,5 @@ function copiar() {
 
 function mostrarImagem() {
     mensagem.textContent = ''; // Limpa a mensagem
-    imagem.style.display = "semMensagem"; // Mostra a imagem novamente
-    alert = "Texto copiado"
+    imagem.style.display = block; // Mostra a imagem novamente
 }
