@@ -46,5 +46,9 @@ O texto criptografado será exibido na área designada.
 ## ✨ Exemplo
 Se você inserir "gato" e aplicar a criptografia, o resultado será "gaitober".
 
+## ✅ Link do Projeto deployado:
+**https://decodificador-texto-beryl.vercel.app/**
+
+
 
 
