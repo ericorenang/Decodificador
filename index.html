@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Encriptador</title>
+    <link rel="shortcut icon" href="https://www.alura.com.br/assets/favicon.1720710817.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logoAlura" src="/Imagem/logoalura.png" alt="logo alura">
+        </header>
+        
+        <section class="criptografia">
+            <textarea class="text-area" cols="41" rows="4" id="textoDescriptografado" placeholder="Digite seu texto"></textarea>
+
+            <div class="aviso">
+                <img src="/Imagem/aviso.png">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </div>
+
+            <div class="botoes">
+                <button class="btn-criptografar" onclick="criptografar()">Criptografar</button>
+                <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </section>
+
+        <section class="bloco-tradutor">
+            <div id="semMensagem">
+                <img src="/Imagem/boneco.png" alt="Imagem boneco">
+                <p>Nenhuma mensagem encontrada</p>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+
+            <div id="textoTradutor" style="display: none;">
+                <div class="mensagem"></div>
+                <button class="btn-copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>    
+
+    <footer>
+            <div class="credits">Desenvolvido por<a href="https://www.linkedin.com/in/érico-renan-gonçalves/" target="_blank"> Erico Gonçalves</a></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
